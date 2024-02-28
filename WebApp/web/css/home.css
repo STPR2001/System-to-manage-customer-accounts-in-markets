@@ -1,0 +1,39 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.business-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.business {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.business:hover {
+  transform: scale(1.05); 
+}
+
+.business h2 {
+    font-size: 24px;
+}
+
+.business p {
+    font-size: 16px;
+}
+
+

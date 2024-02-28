@@ -1,0 +1,28 @@
+#accounts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+#accounts-container > div {
+    border-radius: 5px;
+    padding: 12px;
+    background-color: var(--almost-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+
+#accounts-container > div:hover {
+    border: 2px solid var(--primary);
+    transition: 0.2s;
+}
+
+#accounts-container > div > span:nth-child(1) {
+    font-size: 20px;
+}

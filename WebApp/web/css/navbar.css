@@ -1,0 +1,29 @@
+nav {
+    width: 100%;
+    padding: 35px 35px;
+    display: flex;
+    align-items: center;
+    background-color: var(--almost-bg);
+}
+
+nav > span {
+    color: var(--texts);
+}
+
+a {
+    color: var(--texts);
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: var(--primary);
+    transition: 0.2s;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
